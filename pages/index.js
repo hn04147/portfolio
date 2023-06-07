@@ -1,3 +1,4 @@
+import React from 'react'
 import AboutMe from './AboutMe.jsx'
 import Education from './Education.jsx'
 
@@ -12,7 +13,9 @@ export default function Home() {
             </div>
             <div className='skill w-full h-[400px] bg-gray-200'></div>
             <div className='career w-full h-[400px] bg-stone-300'></div>
-            <div className='project w-full h-[600px] bg-sky-200'></div>
+            <div className='project w-full'>
+                PROJECTS
+            </div>
         </div>
     )
 }
