@@ -1,0 +1,55 @@
+{
+    "aboutMe": {
+        "introduce": [
+            "안녕하세요",
+            "개발자로 지원한 이상진입니다.",
+            "오늘 날씨가 좋네요",
+            "내일은 날씨가 좋으면 좋겠어요",
+            "동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리 나라 만세"
+        ],
+        "contact": {
+            "phone": "010-9306-2850",
+            "email": "hn04147@naver.com",
+            "github": "https://github.com/hn04147"
+        }
+    },
+    "education": {
+        "period": "2016.03 ~ 2023.08",
+        "university": "한양대학교",
+        "college": "컴퓨터소프트웨어학부",
+        "gpa": "3.39 / 4.5"
+    },
+    "career": {
+
+    },
+    "project": [
+        {
+            "imgUrl": "/opensea-clone-coding.png",
+            "projectTitle": "Opensea clone coding",
+            "languages": ["Typescript", "Tailwindcss", "NextJS"],
+            "projectPeriod": "2022.07",
+            "projectAbout": "NextJS, Tailwind, DaisyUI를 활용한 Opensea 사이트 클론 코딩 프로젝트"
+        },
+        {
+            "imgUrl": "/yolox-project.png",
+            "projectTitle": "YOLOX 경량화 프로젝트",
+            "languages": ["Pytorch", "YOLOX-nano", "Wandb"],
+            "projectPeriod": "2022.05 ~ 2022.06",
+            "projectAbout": "YOLOX-nano 모델의 경량화 프로젝트"
+        },
+        {
+            "imgUrl": "/graduation-project.png",
+            "projectTitle": "졸업 프로젝트",
+            "languages": ["YOLOv5", "Lama"],
+            "projectPeriod": "2022.09 ~ 2023.05",
+            "projectAbout": "한양대학교 졸업 프로젝트"
+        },
+        {
+            "imgUrl": "/image-segmentation-project.png",
+            "projectTitle": "Image segmentation 대회",
+            "languages": ["Pytorch", "Mmsegmentation", "Wandb"],
+            "projectPeriod": "2022.04",
+            "projectAbout": "Image segmentation 모델을 활용한 쓰레기 데이터 segmentation 대회"
+        }
+    ]
+}

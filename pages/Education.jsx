@@ -2,8 +2,8 @@ import Title from "../components/Title"
 
 const Education = () => {
     return (
-        <div className='w-full p-2'>
-            <Title title={'Education'} />
+        <div className='w-full p-2 mb-10'>
+            <Title title={'📖 Education'} />
             <div className='w-full h-16 flex'>
                 <div className='w-40 lg:w-64 h-full grid content-center'>
                     <div className='text-sm text-slate-500'>2016.03 - 2023.08</div>
