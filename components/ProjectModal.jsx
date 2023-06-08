@@ -44,7 +44,7 @@ const ProjectModal = ({ }) => {
                 <div className='absolute right-5 top-5 cursor-pointer'><img src={'/exit-icon.svg'} onClick={handleClose} /></div>
                 <div className='relative w-full h-full'>
                     <div className='max-lg:w-[calc(100%-4rem)] lg:w-[700px] mx-auto mt-14 mb-10 max-h-[calc(100%-6rem)] lg:max-h-[calc(100%-8rem)] overflow-scroll scrollbar-hide'>
-                        <ReactMarkdown children={modalList[projectNum]} remarkPlugins={[remarkGfm]} className='prose' />
+                        <ReactMarkdown children={modalList[projectNum]} remarkPlugins={[remarkGfm]} className='prose'></ReactMarkdown>
                     </div>
                 </div>
             </div>
