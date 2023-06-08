@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import Title from "../components/Title"
 import ProjectCard from "../components/ProjectCard"
 import data from '../data/data.json'
@@ -12,6 +10,7 @@ const Project = () => {
             <Title title={'🛠 Projects'} />
             <div className='w-full flex flex-wrap'>
                 {projects?.map((i, idx) => <ProjectCard
+                    projectNumber={i?.projectNumber}
                     imgUrl={i?.imgUrl}
                     projectTitle={i?.projectTitle}
                     languages={i?.languages}

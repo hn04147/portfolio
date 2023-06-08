@@ -7,6 +7,9 @@ module.exports = {
     theme: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require("tailwind-scrollbar-hide"),
+        require("@tailwindcss/typography")
+    ],
 }
 

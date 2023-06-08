@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { GlobalContext } from './_app.js'
 import { useState } from 'react'
 
 import AboutMe from './AboutMe.jsx'
 import Education from './Education.jsx'
 import Career from './Career.jsx'
 import Project from './Project.jsx'
-import Modal from '../components/Modal.jsx'
+import ProjectModal from '../components/ProjectModal.jsx'
 
 export default function Home() {
-    const [modal, setModal] = useState(false)
+    const { modal, setModal } = useContext(GlobalContext)
 
     return (
         <div className='max-w-screen-xl mx-auto p-6 lg:p-20 relative z-10'>
@@ -17,6 +18,7 @@ export default function Home() {
             <div className='skill w-full'><Career /></div>
             <div className='project w-full'><Project /></div>
             <div className='footer h-12'></div>
+            {modal && <ProjectModal />}
         </div>
     )
 }

@@ -1,25 +1,27 @@
-import { useState } from 'react'
-import Modal from './Modal'
+import { useContext } from "react"
+import { GlobalContext } from "../pages/_app"
 
 const ProjectCard = ({
+    projectNumber,
     imgUrl,
     projectTitle,
     languages,
     projectPeriod,
     projectAbout
 }) => {
-    const [modal, setModal] = useState(false)
+    const { modal, setModal } = useContext(GlobalContext)
+    const { projectNum, setProjectNum } = useContext(GlobalContext)
 
-    const showModal = () => {
+    const handleClick = () => {
+        setProjectNum(projectNumber)
         setModal(true)
     }
 
-    const deleteModal = () => {
-        setModal(false)
-    }
-
     return (
-        <div className='w-full h-[200px] sm:w-[260px] sm:h-[350px] max-sm:flex relative my-2 sm:mr-4 bg-gray-100 border rounded-xl hover:duration-200 hover:shadow-[0_0_15px_-3px_rgba(0,0,0,0.3)]' onClick={showModal}>
+        <div 
+            className='w-full h-[200px] sm:w-[260px] sm:h-[350px] max-sm:flex relative my-2 sm:mr-4 bg-gray-100 border rounded-xl hover:duration-200 hover:shadow-[0_0_15px_-3px_rgba(0,0,0,0.3)] cursor-pointer' 
+            onClick={handleClick}
+        >
             <div className='backgroundUrl w-[100px] h-full sm:w-full sm:h-[150px]'>
                 <img className='h-full w-full object-cover max-sm:rounded-l-xl sm:rounded-t-xl max-sm:border-r sm:border-b' src={imgUrl} />
             </div>
@@ -35,7 +37,6 @@ const ProjectCard = ({
                     <p className='text-sm'>{projectAbout}</p>
                 </div>
             </div>
-            {/* {modal && <Modal projectTitle={projectTitle} deleteModal={() => setModal(false)} />} */}
         </div>
     )
 }

@@ -24,13 +24,31 @@
     },
     "project": [
         {
-            "imgUrl": "/opensea-clone-coding.png",
-            "projectTitle": "Opensea clone coding",
-            "languages": ["Typescript", "Tailwindcss", "NextJS"],
-            "projectPeriod": "2022.07",
-            "projectAbout": "NextJS, Tailwind, DaisyUI를 활용한 Opensea 사이트 클론 코딩 프로젝트"
+            "projectNumber": 0,
+            "imgUrl": "/letmeup-project.jpg",
+            "projectTitle": "Letmeup 화상 채팅 프로젝트",
+            "languages": ["ReactJS"],
+            "projectPeriod": "2021.09 ~ 2021.12",
+            "projectAbout": "WebRTC 오픈소스인 Jitsi Meet를 활용한 화상 채팅 서비스"
         },
         {
+            "projectNumber": 1,
+            "imgUrl": "/image-segmentation-project.png",
+            "projectTitle": "Object detection 대회",
+            "languages": ["Pytorch", "Mmsegmentation", "Wandb"],
+            "projectPeriod": "2022.04",
+            "projectAbout": "Image segmentation 모델을 활용한 쓰레기 데이터 segmentation 대회"
+        },
+        {
+            "projectNumber": 2,
+            "imgUrl": "/image-segmentation-project.png",
+            "projectTitle": "Image segmentation 대회",
+            "languages": ["Pytorch", "Mmsegmentation", "Wandb"],
+            "projectPeriod": "2022.04",
+            "projectAbout": "Image segmentation 모델을 활용한 쓰레기 데이터 segmentation 대회"
+        },
+        {
+            "projectNumber": 3,
             "imgUrl": "/yolox-project.png",
             "projectTitle": "YOLOX 경량화 프로젝트",
             "languages": ["Pytorch", "YOLOX-nano", "Wandb"],
@@ -38,18 +56,20 @@
             "projectAbout": "YOLOX-nano 모델의 경량화 프로젝트"
         },
         {
+            "projectNumber": 4,
+            "imgUrl": "/opensea-clone-coding.png",
+            "projectTitle": "Opensea clone coding",
+            "languages": ["Typescript", "Tailwindcss", "NextJS"],
+            "projectPeriod": "2022.07",
+            "projectAbout": "NextJS, Tailwind, DaisyUI를 활용한 Opensea 사이트 클론 코딩 프로젝트"
+        },
+        {
+            "projectNumber": 5,
             "imgUrl": "/graduation-project.png",
             "projectTitle": "졸업 프로젝트",
             "languages": ["YOLOv5", "Lama"],
             "projectPeriod": "2022.09 ~ 2023.05",
             "projectAbout": "한양대학교 졸업 프로젝트"
-        },
-        {
-            "imgUrl": "/image-segmentation-project.png",
-            "projectTitle": "Image segmentation 대회",
-            "languages": ["Pytorch", "Mmsegmentation", "Wandb"],
-            "projectPeriod": "2022.04",
-            "projectAbout": "Image segmentation 모델을 활용한 쓰레기 데이터 segmentation 대회"
         }
     ]
 }
