@@ -30,7 +30,7 @@ const ProjectCard = ({
                 <div className='font-bold text-center'>{projectTitle}</div>
                 <div className='flex justify-center'>
                     {languages?.map((i, idx) => 
-                        <div className='text-[0.7rem] rounded-full bg-sky-500 text-white px-1.5 m-0.5' key={idx}>{i}</div>
+                        <div className='text-[0.7rem] rounded-full bg-[rgb(82,150,218)] text-white px-1.5 m-0.5' key={idx}>{i}</div>
                     )}
                 </div>
                 <div className='max-w-[180px] text-center mx-auto mt-2'>
