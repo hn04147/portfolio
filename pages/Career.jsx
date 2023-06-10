@@ -4,7 +4,7 @@ import data from '../data/data.json'
 const Career = () => {
 
     return (
-        <div className='w-full p-2 mb-10'>
+        <div className='w-full p-2 mb-2'>
             <Title title={'💻 Career'} />
             <div className='w-full max-lg:flex-col lg:flex'>
                 <div className='w-40 lg:w-64 h-full grid content-center'>
@@ -16,7 +16,7 @@ const Career = () => {
                     <div className='text-sm'>- Letmeup 사이트 프론트엔드 부분 구축</div>
                 </div>
             </div>
-            <div className='h-[1px] w-full my-4 bg-stone-200' />
+            <div className='h-[1px] w-full mt-6 my-4 bg-stone-200' />
         </div>
     )
 }

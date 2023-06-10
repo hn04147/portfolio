@@ -5,7 +5,7 @@ const AboutMe = () => {
     const aboutMe = data.aboutMe
 
     return (
-        <div className='w-full p-2 mb-10'>
+        <div className='w-full p-2 mb-2'>
             <Title title={'🧑🏻‍💻 About Me'} />
             <div className='lg:flex'>
                 <div className='introduce lg:min-w-[32rem] lg:mr-14 mb-10 lg:mb-0'>
@@ -27,6 +27,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
+            <div className='h-[1px] w-full mt-6 my-4 bg-stone-200' />
         </div>
     )
 }

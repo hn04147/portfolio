@@ -1,11 +1,12 @@
-# Object-detection-level2-cv-19
-<br />
+# Object detection 대회
+
+[Github Link](https://github.com/hn04147/level2-object-detection-level2-cv-19)
 
 ## 🔍 Overview
 ### Background
 > 바야흐로 대량 생산, 대량 소비의 시대. 우리는 많은 물건이 대량으로 생산되고, 소비되는 시대를 살고 있습니다. 하지만 이러한 문화는 '쓰레기 대란', '매립지 부족'과 같은 여러 사회 문제를 낳고 있습니다.
 
-<img src='https://camo.githubusercontent.com/86c9fd66258daf9bcaee570f6024589839ca5dfc4efaeaa29f97c9fb82b819a3/68747470733a2f2f692e696d6775722e636f6d2f506e4f6451304c2e706e67' />
+![img1](https://camo.githubusercontent.com/86c9fd66258daf9bcaee570f6024589839ca5dfc4efaeaa29f97c9fb82b819a3/68747470733a2f2f692e696d6775722e636f6d2f506e4f6451304c2e706e67)
 
 > 분리수거는 이러한 환경 부담을 줄일 수 있는 방법 중 하나입니다. 잘 분리배출 된 쓰레기는 자원으로서 가치를 인정받아 재활용되지만, 잘못 분리배출 되면 그대로 폐기물로 분류되어 매립 또는 소각되기 때문입니다.  
 > 
@@ -25,16 +26,13 @@
 * PredictionString = (label, score, xmin, ymin, xmax, ymax), ......
 
 
-<br />
-
 ## 📝 Members
-- `권혁산` &nbsp; Detection을 위한 라이브러리 서칭, 라이브러리 사용법 및 협업에 대한 의견 제시, DataCleaning, IOU Sweep 
-- `김대유` &nbsp; EDA 및 fiftyone을 이용한 데이터 시각화, 모델 결과 데이터 형식 변경 툴(csv to json), stratified k-fold 데이터 제작   
-- `김찬민` &nbsp; 베이스라인코드 모델 이해 및 학습  
-- `이상진` &nbsp; mmdetection, k-fold 데이터셋, ensemble, multi-scale  
-- `정효재` &nbsp; 모델 학습 및 Augmentation, workspace 생성  
+- ```권혁산``` &nbsp; Detection을 위한 라이브러리 서칭, 라이브러리 사용법 및 협업에 대한 의견 제시, DataCleaning, IOU Sweep 
+- ```김대유``` &nbsp; EDA 및 fiftyone을 이용한 데이터 시각화, 모델 결과 데이터 형식 변경 툴(csv to json), stratified k-fold 데이터 제작   
+- ```김찬민``` &nbsp; 베이스라인코드 모델 이해 및 학습  
+- ```이상진``` &nbsp; mmdetection, k-fold 데이터셋, ensemble, multi-scale  
+- ```정효재``` &nbsp; 모델 학습 및 Augmentation, workspace 생성  
 
-<br />
 
 ## 📃 Code Structure
 ```
@@ -65,8 +63,6 @@
 ```
 
 
-<br />
-
 ## 💻 How to use
 ### mmdetection
 ```
@@ -80,10 +76,6 @@ python tools/train.py custom_models/{학습시키고 싶은 모델명}/model.py
 python train.py --entity next_level --batch 16 --epochs 30 --data trash.yaml --weights yolov5s.pt 
 ```
 
-### EfficientDet
-```
-
-```
 
 ### Detectron2
 ```
@@ -91,7 +83,6 @@ cd Detectron2
 python tools/train_net.py --config-file {Config 파일명}
 ```
 
-<br />
 
 ## Evaluation
 ### Models
@@ -114,14 +105,3 @@ python tools/train_net.py --config-file {Config 파일명}
   - Public LB score: mAP 0.6824
   - Private LB score: mAP 0.6663
 ```
-
-
-
-<!-- ### yolov5 데이터 관련
-./dataset/imaages/ 에 test 이미지 폴더와 train 이미지 폴더를 넣어주고 학습하면됨 
-
----
-### yolov5 wandb 활성화 하는 방법
-termial에서 yolo5폴더 들어가서 wandb online 실행
-
-python train.py --entity next_level --batch 16 --epochs 30 --data trash.yaml --weights yolov5s.pt  -->

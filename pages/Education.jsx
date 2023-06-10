@@ -2,7 +2,7 @@ import Title from "../components/Title"
 
 const Education = () => {
     return (
-        <div className='w-full p-2 mb-10'>
+        <div className='w-full p-2 mb-2'>
             <Title title={'📖 Education'} />
             <div className='w-full h-16 flex'>
                 <div className='w-40 lg:w-64 h-full grid content-center'>
@@ -11,7 +11,8 @@ const Education = () => {
                 </div>
                 <div className='h-full grid content-center'>
                     <div className='text-sm'>컴퓨터소프트웨어학부</div>
-                    <div className='text-sm'>3.39 / 4.5</div>
+                    {/* <div className='text-sm'>3.39 / 4.5</div> */}
+                    <div>&nbsp;</div>
                 </div>
             </div>
             <div className='h-[1px] w-full my-4 bg-stone-200' />
