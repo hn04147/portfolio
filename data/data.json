@@ -33,7 +33,7 @@
         },
         {
             "projectNumber": 1,
-            "imgUrl": "/image-segmentation-project.png",
+            "imgUrl": "/object-detection.png",
             "projectTitle": "Object detection 대회",
             "languages": ["Pytorch", "Mmsegmentation", "Wandb"],
             "projectPeriod": "2022.04",
@@ -45,7 +45,7 @@
             "projectTitle": "Image segmentation 대회",
             "languages": ["Pytorch", "Mmsegmentation", "Wandb"],
             "projectPeriod": "2022.04",
-            "projectAbout": "Image segmentation 모델을 활용한 쓰레기 데이터 segmentation 대회"
+            "projectAbout": "쓰레기가 찍힌 사진에서 쓰레기를 Segmentation 하는 모델을 통한 분리수거 인공지능 만들기"
         },
         {
             "projectNumber": 3,
@@ -70,6 +70,14 @@
             "languages": ["YOLOv5", "Lama"],
             "projectPeriod": "2022.09 ~ 2023.05",
             "projectAbout": "한양대학교 졸업 프로젝트"
+        },
+        {
+            "projectNumber": 6,
+            "imgUrl": "/data-annotation.png",
+            "projectTitle": "Data annotation 대회",
+            "languages": ["Pytorch"],
+            "projectPeriod": "2022.04",
+            "projectAbout": "학습 데이터 추가 및 수정을 통한 이미지 속 글자 검출 성능 개선 대회"
         }
     ]
 }

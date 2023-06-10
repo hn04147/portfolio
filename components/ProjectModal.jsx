@@ -11,6 +11,7 @@ import imageSegmentationMarkdown from '../markdowns/imageSegmentationMarkdown.md
 import yoloxMarkdown from '../markdowns/yoloxMarkdown.md'
 import openseaMarkdown from '../markdowns/openseaMarkdown.md'
 import graduationMarkdown from '../markdowns/graduationMarkdown.md'
+import dataAnnotation from '../markdowns/dataAnnotation.md'
 
 const ProjectModal = ({ }) => {
     const { modal, setModal } = useContext(GlobalContext)
@@ -34,7 +35,8 @@ const ProjectModal = ({ }) => {
         imageSegmentationMarkdown,
         yoloxMarkdown,
         openseaMarkdown,
-        graduationMarkdown
+        graduationMarkdown,
+        dataAnnotation
     ]
 
     return (

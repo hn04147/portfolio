@@ -11,8 +11,8 @@ by Chaea Kim, Sangjin Lee
 
 
 ### How to use
-- [Object detection - YOLOv5](./mask_generation/yolov5/README.md)
-- [Image inpainting - Lama](./Inpainting/lama/README.md)
+- [Object detection - YOLOv5](https://github.com/2018007956/HYU-Capstone-Project/blob/main/mask_generation/yolov5/README.md)
+- [Image inpainting - Lama](https://github.com/2018007956/HYU-Capstone-Project/blob/main/Inpainting/lama/README.md)
 
 
 The images below compare the results of different inpainting models: Lama with refinement, Lama w/o refinement, Deepfillv2, GIN  
@@ -28,20 +28,16 @@ Lama w/ refinement parameter
     max_scales: 3
     px_budget: 1800000
 ```
-<p align="center">
-  <img src="https://github.com/2018007956/HYU-Capstone-Project/assets/48304130/b9c846d9-6b54-48d9-905c-5b13f9dfdd15" weight="100">
 
-<p align="left">
-[2] food</br>
+![img1](https://github.com/2018007956/HYU-Capstone-Project/assets/48304130/b9c846d9-6b54-48d9-905c-5b13f9dfdd15)
+
+[2] food
 mask generation: yolov5 (Segmentation class: banana)
-<p align="center">
-  <img src="https://github.com/2018007956/HYU-Capstone-Project/assets/48304130/141aa3a2-4d80-4125-a08e-a2064588adbe" weight="200">
+![img2](https://github.com/2018007956/HYU-Capstone-Project/assets/48304130/141aa3a2-4d80-4125-a08e-a2064588adbe)
 
-<p align="left">
-[3] people</br>
+[3] people
 mask generation: user input 
-<p align="center">
-<img src="https://github.com/2018007956/HYU-Capstone-Project/assets/48304130/45222cb4-67f2-41b8-9626-3a30722839d5" weight="500">
+![img3](https://github.com/2018007956/HYU-Capstone-Project/assets/48304130/45222cb4-67f2-41b8-9626-3a30722839d5)
 
 
 ## References
